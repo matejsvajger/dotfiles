@@ -1,0 +1,12 @@
+# macOS files
+.DS_Store*
+Icon?
+
+# visual studio code
+.vscode/*
+
+# npm/yarn
+node_modules
+
+#composer
+vendor
