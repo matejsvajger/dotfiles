@@ -1,0 +1,40 @@
+###############################################################################
+# zit
+
+# installation and initialization
+if [[ ! -d "$ZIT_PATH" ]]; then
+  git clone https://github.com/mserajnik/zit.git "$ZIT_PATH"
+fi
+
+source "$ZIT_PATH/zit.zsh"
+
+# self-management
+zit-in "https://github.com/mserajnik/zit" "zit"
+
+# plugins
+zit-in "https://github.com/robbyrussell/oh-my-zsh" "oh-my-zsh"
+zit-lo "oh-my-zsh" "plugins/git/git.plugin.zsh"
+zit-lo "oh-my-zsh" "plugins/npm/npm.plugin.zsh"
+zit-lo "oh-my-zsh" "plugins/yarn/yarn.plugin.zsh"
+zit-lo "oh-my-zsh" "plugins/composer/composer.plugin.zsh"
+zit-lo "oh-my-zsh" "plugins/tmux/tmux.plugin.zsh"
+
+zit-il "https://github.com/djui/alias-tips" "alias-tips" \
+  "alias-tips.plugin.zsh"
+zit-il "https://github.com/rupa/z" "z" "z.sh"
+zit-il "https://github.com/changyuheng/fz" "fz" "fz.sh"
+
+zit-il "https://github.com/zsh-users/zsh-autosuggestions" \
+  "zsh-autosuggestions" "zsh-autosuggestions.plugin.zsh"
+zit-il "https://github.com/zsh-users/zsh-completions" "zsh-completions" \
+  "zsh-completions.plugin.zsh"
+
+# theme
+zit-il "https://github.com/chriskempson/base16-shell.git" "base16-shell" \
+  "base16-shell.plugin.zsh"
+zit-il "https://github.com/denysdovhan/spaceship-prompt" "spaceship-prompt" \
+  "spaceship.zsh"
+
+# plugins which need to be loaded after zle and compinit
+zit-il "https://github.com/zsh-users/zsh-syntax-highlighting" \
+  "zsh-syntax-highlighting" "zsh-syntax-highlighting.plugin.zsh"
