@@ -54,7 +54,7 @@ brew install stow
 brew cask install 1password
 brew cask install alfred
 brew cask install visual-studio-code
-brew cask install iterm2
+brew cask install hyper
 brew cask install fork
 brew cask install transmit
 brew cask install postman
@@ -106,6 +106,7 @@ printf "${BLUE}setting up symlinks…${NC}\\n"
 rm -f "$HOME/.zshrc" && rm -rf "$HOME/.zsh" && stow zsh
 rm -f "$HOME/.zitrc" && rm -rf "$HOME/.zit" && stow zit
 rm -f "$HOME/.tmux.conf" && stow tmux
+rm -f "$HOME/.hyper.js" && stow hyper
 rm -f "$HOME/.gitconfig" && rm -f "$HOME/.gitignore_global" && stow git
 rm -f "$HOME/.hushlogin" && stow other
 
