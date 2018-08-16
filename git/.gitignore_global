@@ -3,7 +3,7 @@
 Icon?
 
 # visual studio code
-.vscode/*
+.vscode/settings.json
 
 # npm/yarn
 node_modules
