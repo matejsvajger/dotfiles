@@ -17,6 +17,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 + Switched to Hyper
 + Adjusted tmux configuration
++ Adjusted global .gitignore
 
 ## 1.0.0
 
