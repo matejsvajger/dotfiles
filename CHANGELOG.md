@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Added
+
++ Added ability to show current user and hostname in the tmux status bar even
+  in an SSH session
+
 ### Changed
 
 + Switched to Hyper
