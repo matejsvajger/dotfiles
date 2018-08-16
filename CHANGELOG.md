@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 + Added ability to show current user and hostname in the tmux status bar even
   in an SSH session
++ Added confirm quit dialog when closing Hyper
 
 ### Changed
 
