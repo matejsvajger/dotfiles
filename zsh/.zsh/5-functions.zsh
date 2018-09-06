@@ -15,9 +15,8 @@ update_brew() {
   printf "${BLUE}updating homebrew and packages…${NC}\\n"
   brew update
   brew upgrade
-  brew cu --all --cleanup --no-brew-update
+  brew cu --cleanup --no-brew-update
   brew cleanup
-  brew cask cleanup
 }
 
 update_npm() {

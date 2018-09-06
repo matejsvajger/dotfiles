@@ -37,6 +37,7 @@ brew update
 
 brew install zsh
 brew install git
+brew install bat
 brew install micro
 brew install ripgrep
 brew install fzf
@@ -97,8 +98,8 @@ npm i -g npm
 # install global yarn apps/packages
 printf "${BLUE}installing global yarn packages…${NC}\\n"
 
-yarn global add http-server typescript eslint websn @vue/cli gulp-cli less \
-  less-plugin-clean-css uglify-js is-up-cli updates vsce
+yarn global add tldr http-server typescript eslint websn @vue/cli gulp-cli \
+  less less-plugin-clean-css uglify-js is-up-cli updates vsce
 
 # remove any default/old configurations and set up symlinks with stow
 printf "${BLUE}setting up symlinks…${NC}\\n"
