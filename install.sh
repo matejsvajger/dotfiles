@@ -37,6 +37,7 @@ brew update
 
 brew install zsh
 brew install git
+brew install bat
 brew install micro
 brew install ripgrep
 brew install fzf
