@@ -1,9 +1,9 @@
 [user]
-  name = Michael Serajnik
-  email = ms@mserajnik.at
-  username = mserajnik
+  name = Matej Svajger
+  email = hello@matejsvajger.com
+  username = matejsvajger
 [core]
-  editor = micro
+  editor = vi
   excludesfile = ~/.gitignore_global
 [web]
   browser = google-chrome
@@ -16,3 +16,5 @@
 [rerere]
   enabled = 1
   autoupdate = 1
+[alias]
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
